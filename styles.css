@@ -1,0 +1,40 @@
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: 20px;
+    padding: 5px;
+}
+a {
+    font-size: 25px;
+}
+img {
+    width: 500px;
+}
+#split-div{
+    display: flex;
+}
+.split {
+    flex: 1 / 2;
+}
+.split:first-child {
+    padding-right: 400px;
+} 
+#div-proofs{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.div-proof {
+    border-style: solid;
+    border-color: darkred;
+    text-align: center;
+}
