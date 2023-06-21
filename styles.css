@@ -1,21 +1,21 @@
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 h3 {
-    font-size: 25px;
+    font-size: 35px;
 }
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 li {
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
 }
 a {
     font-size: 25px;
 }
 img {
-    width: 500px;
+    width: 30vw;
 }
 #split-div{
     display: flex;
@@ -23,8 +23,16 @@ img {
 .split {
     flex: 1 / 2;
 }
+#kofiDiv {
+    height: 25vh;
+    border-style: solid; 
+    border-color: green; 
+    border-radius: 10px; 
+    border-width: 5px;
+    text-align: center;
+}
 .split:first-child {
-    padding-right: 400px;
+    padding-right: 7vw;
 } 
 #div-proofs{
     display: flex;

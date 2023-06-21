@@ -25,7 +25,7 @@
 
     <h3>What will happen if you try to sell an account on one of these marketplaces:</h3>
     <div id="split-div">
-        <div class="split">
+        <div class="split" style="transform: translateX(1.5vw);">
             <ol>
                 <li>You and the buyer will connect with a legit middleman who is part of the website.</li>
                 <li>The buyer will pay the middleman</li>
@@ -36,14 +36,14 @@
                 </li>
             </ol>
         </div>
-        <div class="split" style="border-style: solid; border-color: green; border-radius: 10px; border-width: 5px;">
-            <p style="font-size: 16px; padding: 3px;">Google ads are expensive (~$2 per ad). It would be great if I
+        <div class="split" id="kofiDiv">
+            <p style="font-size:25px; padding: 3px;">Google ads are expensive! It would be great if I
                 could sustain
                 buying ads. <br>
                 If you feel this has helped you in any way, please donate! <br>
                 <b>All the money</b> donated will be used to buy more ads to prevent other people from getting scammed!
             </p>
-            <div style="text-align: center;">
+            <!-- <div> -->
                 <script type='text/javascript'>
                     var kofiwidget2 = kofiwidget2 || (function () {
                         var style = "";
@@ -56,8 +56,125 @@
                                 color = pColor;
                                 text = pText;
                                 id = pId;
-                                style = "img.kofiimg{display: initial!important;vertical-align:middle;height:13px!important;width:20px!important;padding-top:0!important;padding-bottom:0!important;border:none;margin-top:0;margin-right:5px!important;margin-left:0!important;margin-bottom:3px!important;content:url('https://storage.ko-fi.com/cdn/cup-border.png')}.kofiimg:after{vertical-align:middle;height:25px;padding-top:0;padding-bottom:0;border:none;margin-top:0;margin-right:6px;margin-left:0;margin-bottom:4px!important;content:url('https://storage.ko-fi.com/cdn/whitelogo.svg')}.btn-container{display:inline-block!important;white-space:nowrap;min-width:300px}span.kofitext{color:#fff !important;letter-spacing: -0.15px!important;text-wrap:none;vertical-align:middle;line-height:33px !important;padding:0;text-align:center;text-decoration:none!important; text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);}.kofitext a{color:#fff !important;text-decoration:none:important;}.kofitext a:hover{color:#fff !important;text-decoration:none}a.kofi-button{box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);line-height:36px!important;min-width:400px;display:inline-block!important;background-color:#29abe0;padding:2px 12px !important;text-align:center !important;border-radius:7px;color:#fff;cursor:pointer;overflow-wrap:break-word;vertical-align:middle;border:0 none #fff !important;font-family:'Quicksand',Helvetica,Century Gothic,sans-serif !important;text-decoration:none;text-shadow:none;font-weight:700!important;font-size:px !important}a.kofi-button:visited{color:#fff !important;text-decoration:none !important}a.kofi-button:hover{opacity:.85;color:#f5f5f5 !important;text-decoration:none !important}a.kofi-button:active{color:#f5f5f5 !important;text-decoration:none !important}.kofitext img.kofiimg {height:30px!important;width:44px!important;display: initial;animation: kofi-wiggle 3s infinite;}";
-                                style = style + "@keyframes kofi-wiggle{0%{transform:rotate(0) scale(1)}60%{transform:rotate(0) scale(1)}75%{transform:rotate(0) scale(1.12)}80%{transform:rotate(0) scale(1.1)}84%{transform:rotate(-10deg) scale(1.1)}88%{transform:rotate(10deg) scale(1.1)}92%{transform:rotate(-10deg) scale(1.1)}96%{transform:rotate(10deg) scale(1.1)}100%{transform:rotate(0) scale(1)}}";
+                                style = `
+                            img.kofiimg{
+                                display: initial!important;
+                                vertical-align:middle;
+                                height:12px!important;
+                                width:20px!important;
+                                padding-top:0!important;
+                                padding-bottom:0!important;
+                                border:none;
+                                margin-top:0;
+                                margin-right:5px!important;
+                                margin-left:0!important;
+                                margin-bottom:3px!important;
+                                content:url('https://storage.ko-fi.com/cdn/cup-border.png')
+                            }
+                            .kofiimg:after{
+                                vertical-align:middle;
+                                height:25px;
+                                padding-top:0;
+                                padding-bottom:0;
+                                border:none;
+                                margin-top:0;
+                                margin-right:6px;
+                                margin-left:0;
+                                margin-bottom:4px!important;
+                                content:url('https://storage.ko-fi.com/cdn/whitelogo.svg')
+                            }
+                            .btn-container{
+                                display:inline-block!important;
+                                white-space:nowrap;
+                                min-width:200px
+                            }
+                            span.kofitext{
+                                color:#fff !important;
+                                letter-spacing: -0.15px!important;
+                                text-wrap:none;
+                                vertical-align:middle;
+                                line-height:33px !important;
+                                padding:0;
+                                text-align:center;
+                                text-decoration:none!important;
+                                text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
+                            }
+                            .kofitext a{
+                                color:#fff !important;
+                                text-decoration:none:important;
+                            }
+                            .kofitext a:hover{
+                                color:#fff !important;
+                                text-decoration:none
+                            }
+                            a.kofi-button{
+                                box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+                                line-height:36px!important;
+                                min-width:350px;
+                                display:inline-block!important;
+                                background-color:#29abe0;
+                                padding:2px 12px !important;
+                                text-align:center !important;
+                                border-radius:7px;
+                                color:#fff;
+                                cursor:pointer;
+                                overflow-wrap:break-word;
+                                vertical-align:middle;
+                                border:0 none #fff !important;
+                                font-family:'Quicksand',Helvetica,Century Gothic,sans-serif !important;
+                                text-decoration:none;
+                                text-shadow:none;
+                                font-weight:700!important;
+                                font-size:px !important
+                            }
+                            a.kofi-button:visited{
+                                color:#fff !important;
+                                text-decoration:none !important
+                            }
+                            a.kofi-button:hover{
+                                opacity:.85;
+                                color:#f5f5f5 !important;
+                                text-decoration:none !important
+                            }
+                            a.kofi-button:active{
+                                color:#f5f5f5 !important;
+                                text-decoration:none !important
+                            }
+                            .kofitext img.kofiimg {
+                                height:30px!important;
+                                width:44px!important;
+                                display: initial;
+                                animation: kofi-wiggle 3s infinite;
+                            }
+                            @keyframes kofi-wiggle{
+                                0%{
+                                    transform:rotate(0) scale(1)
+                                }
+                                60%{
+                                    transform:rotate(0) scale(1)
+                                }
+                                75%{
+                                    transform:rotate(0) scale(1.12)
+                                }
+                                80%{
+                                    transform:rotate(0) scale(1.1)
+                                }
+                                84%{
+                                    transform:rotate(-10deg) scale(1.1)
+                                }
+                                88%{
+                                    transform:rotate(10deg) scale(1.1)
+                                }
+                                92%{
+                                    transform:rotate(-10deg) scale(1.1)
+                                }
+                                96%{
+                                    transform:rotate(10deg) scale(1.1)
+                                }
+                                100%{
+                                    transform:rotate(0) scale(1)
+                                }
+                            }`;
                                 style = "<style>" + style + "</style>";
                                 html = "<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>";
                                 html += '<div class=btn-container><a title="Support me on ko-fi.com" class="kofi-button" style="background-color:[color];" href="https://ko-fi.com/[id]" target="_blank"> <span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg"/>[text]</span></a></div>';
@@ -76,7 +193,7 @@
                     type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'T6T0KNDDE'); kofiwidget2.draw();</script>
                 <script>
                 </script>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 
@@ -141,7 +258,7 @@
         spending my money to pay for ads? I'm not advertising any alternative option. I'm just telling you to do
         your research, and maybe, just maybe you will find a legitimate marketplace.
     </p>
-    <p style="text-align: center; font-size: 25px;">Here are some examples of just some of these scam websites (link
+    <p style="text-align: center; font-size: 30px; text-decoration: underline;">Here are some examples of just some of these scam websites (link
         redirects to review page):</p>
     <div id="div-proofs">
         <div id="div-playerup" class="div-proof">
@@ -172,62 +289,62 @@
     </div>
     <script defer src="/_vercel/insights/script.js"></script>
     <p style="font-size: 1px; color: white;">Tags (for search optimization):
-sell and buy gaming accounts, account marketplace,
-playerup, epicnpc, odealo, playerauctions, elitepvpers,
+        sell and buy gaming accounts, account marketplace,
+        playerup, epicnpc, odealo, playerauctions, elitepvpers,
 
-sell clash of clans account, sell coc account, sell instagram account, sell genshin impact account, sell lords
-mobile account, sell twitter account, sell youtube account, sell addmefast account, sell adventure quest
-account, sell afk arena account, sell apex legends account, sell arknights account, sell black desert account,
-sell bleach brave souls account, sell boom beach account, sell brawl stars account, sell cod account, sell call
-of duty account, sell call of duty black ops cold war account, sell call of duty warzone account, sell call of
-duty modern warfare account, sell castle clash account, sell clash royale account, sell csgo account, sell
-counter strike account, sell crossfire account, sell dark orbit account, sell destiny account, sell discord
-account, sell dota 2 account, sell elder scrolls account, sell elder scrolls online account, sell empires &
-puzzles account, sell epic games account, sell epic seven account, sell escape from tarkov account, sell
-facebook account, sell fate grand order account, sell fifa account, sell fiverr account, sell fortnite account,
-sell game of thrones conquest account, sell garena free fire account, sell gta 5 account, sell gta v account,
-sell grand theft auto account, sell growtopia account, sell guardians of cloudia account, sell hay day account,
-sell hearthstone account, sell hero wars account, sell hypixel skyblock account, sell honkai impact account,
-sell identity v account, sell idle heroes account, sell imvu account, sell king of avalon account, sell last
-shelter account, sell league of legends account, sell lost ark account, sell mafia city account, sell maplestory
-account, sell marvel contest of champions account, sell marvel future fight account, sell marvel future
-revolution account, sell marvel strike force account, sell minecraft account, sell mobile legends account, sell
-nba account, sell nintendo switch account, sell one piece bounty rush account, sell origin account, sell
-overwatch account, sell pubg account, sell PSN account, sell pokemon go account, sell raid shadow legends
-account, sell r6s account, sell rainbow six siege account, sell red dead redemption account, sell reddit
-account, sell rise of empires account, sell rise of kingdoms account, sell roblox account, sell rocket league
-account, sell runescape account, sell rust account, sell seven deadly sins account, sell snapchat account, sell
-galaxy of heroes account, sell state of survival account, sell steam account, sell summoners war account, sell
-telegram account, sell TGM account, sell tiktok account, sell top war battle account, sell twitch account, sell
-upwork account, sell valorant account, sell war dragons account, sell war thunder account, sell warframe
-account, sell wizard 101 account, sell world of tanks account, sell xbox account, sell yugioh account, sell 8
-ball pool account,
+        sell clash of clans account, sell coc account, sell instagram account, sell genshin impact account, sell lords
+        mobile account, sell twitter account, sell youtube account, sell addmefast account, sell adventure quest
+        account, sell afk arena account, sell apex legends account, sell arknights account, sell black desert account,
+        sell bleach brave souls account, sell boom beach account, sell brawl stars account, sell cod account, sell call
+        of duty account, sell call of duty black ops cold war account, sell call of duty warzone account, sell call of
+        duty modern warfare account, sell castle clash account, sell clash royale account, sell csgo account, sell
+        counter strike account, sell crossfire account, sell dark orbit account, sell destiny account, sell discord
+        account, sell dota 2 account, sell elder scrolls account, sell elder scrolls online account, sell empires &
+        puzzles account, sell epic games account, sell epic seven account, sell escape from tarkov account, sell
+        facebook account, sell fate grand order account, sell fifa account, sell fiverr account, sell fortnite account,
+        sell game of thrones conquest account, sell garena free fire account, sell gta 5 account, sell gta v account,
+        sell grand theft auto account, sell growtopia account, sell guardians of cloudia account, sell hay day account,
+        sell hearthstone account, sell hero wars account, sell hypixel skyblock account, sell honkai impact account,
+        sell identity v account, sell idle heroes account, sell imvu account, sell king of avalon account, sell last
+        shelter account, sell league of legends account, sell lost ark account, sell mafia city account, sell maplestory
+        account, sell marvel contest of champions account, sell marvel future fight account, sell marvel future
+        revolution account, sell marvel strike force account, sell minecraft account, sell mobile legends account, sell
+        nba account, sell nintendo switch account, sell one piece bounty rush account, sell origin account, sell
+        overwatch account, sell pubg account, sell PSN account, sell pokemon go account, sell raid shadow legends
+        account, sell r6s account, sell rainbow six siege account, sell red dead redemption account, sell reddit
+        account, sell rise of empires account, sell rise of kingdoms account, sell roblox account, sell rocket league
+        account, sell runescape account, sell rust account, sell seven deadly sins account, sell snapchat account, sell
+        galaxy of heroes account, sell state of survival account, sell steam account, sell summoners war account, sell
+        telegram account, sell TGM account, sell tiktok account, sell top war battle account, sell twitch account, sell
+        upwork account, sell valorant account, sell war dragons account, sell war thunder account, sell warframe
+        account, sell wizard 101 account, sell world of tanks account, sell xbox account, sell yugioh account, sell 8
+        ball pool account,
 
-buy clash of clans account, buy coc account, buy instagram account, buy genshin impact account, buy lords mobile
-account, buy twitter account, buy youtube account, buy addmefast account, buy adventure quest account, buy afk
-arena account, buy apex legends account, buy arknights account, buy black desert account, buy bleach brave souls
-account, buy boom beach account, buy brawl stars account, buy cod account, buy call of duty account, buy call of
-duty black ops cold war account, buy call of duty warzone account, buy call of duty modern warfare account, buy
-castle clash account, buy clash royale account, buy csgo account, buy counter strike account, buy crossfire
-account, buy dark orbit account, buy destiny account, buy discord account, buy dota 2 account, buy elder scrolls
-account, buy elder scrolls online account, buy empires & puzzles account, buy epic games account, buy epic seven
-account, buy escape from tarkov account, buy facebook account, buy fate grand order account, buy fifa account,
-buy fiverr account, buy fortnite account, buy game of thrones conquest account, buy garena free fire account,
-buy gta 5 account, buy gta v account, buy grand theft auto account, buy growtopia account, buy guardians of
-cloudia account, buy hay day account, buy hearthstone account, buy hero wars account, buy hypixel skyblock
-account, buy honkai impact account, buy identity v account, buy idle heroes account, buy imvu account, buy king
-of avalon account, buy last shelter account, buy league of legends account, buy lost ark account, buy mafia city
-account, buy maplestory account, buy marvel contest of champions account, buy marvel future fight account, buy
-marvel future revolution account, buy marvel strike force account, buy minecraft account, buy mobile legends
-account, buy nba account, buy nintendo switch account, buy one piece bounty rush account, buy origin account,
-buy overwatch account, buy pubg account, buy PSN account, buy pokemon go account, buy raid shadow legends
-account, buy r6s account, buy rainbow six siege account, buy red dead redemption account, buy reddit account,
-buy rise of empires account, buy rise of kingdoms account, buy roblox account, buy rocket league account, buy
-runescape account, buy rust account, buy seven deadly sins account, buy snapchat account, buy galaxy of heroes
-account, buy state of survival account, buy steam account, buy summoners war account, buy telegram account, buy
-TGM account, buy tiktok account, buy top war battle account, buy twitch account, buy upwork account, buy
-valorant account, buy war dragons account, buy war thunder account, buy warframe account, buy wizard 101
-account, buy world of tanks account, buy xbox account, buy yugioh account, buy 8 ball pool account
+        buy clash of clans account, buy coc account, buy instagram account, buy genshin impact account, buy lords mobile
+        account, buy twitter account, buy youtube account, buy addmefast account, buy adventure quest account, buy afk
+        arena account, buy apex legends account, buy arknights account, buy black desert account, buy bleach brave souls
+        account, buy boom beach account, buy brawl stars account, buy cod account, buy call of duty account, buy call of
+        duty black ops cold war account, buy call of duty warzone account, buy call of duty modern warfare account, buy
+        castle clash account, buy clash royale account, buy csgo account, buy counter strike account, buy crossfire
+        account, buy dark orbit account, buy destiny account, buy discord account, buy dota 2 account, buy elder scrolls
+        account, buy elder scrolls online account, buy empires & puzzles account, buy epic games account, buy epic seven
+        account, buy escape from tarkov account, buy facebook account, buy fate grand order account, buy fifa account,
+        buy fiverr account, buy fortnite account, buy game of thrones conquest account, buy garena free fire account,
+        buy gta 5 account, buy gta v account, buy grand theft auto account, buy growtopia account, buy guardians of
+        cloudia account, buy hay day account, buy hearthstone account, buy hero wars account, buy hypixel skyblock
+        account, buy honkai impact account, buy identity v account, buy idle heroes account, buy imvu account, buy king
+        of avalon account, buy last shelter account, buy league of legends account, buy lost ark account, buy mafia city
+        account, buy maplestory account, buy marvel contest of champions account, buy marvel future fight account, buy
+        marvel future revolution account, buy marvel strike force account, buy minecraft account, buy mobile legends
+        account, buy nba account, buy nintendo switch account, buy one piece bounty rush account, buy origin account,
+        buy overwatch account, buy pubg account, buy PSN account, buy pokemon go account, buy raid shadow legends
+        account, buy r6s account, buy rainbow six siege account, buy red dead redemption account, buy reddit account,
+        buy rise of empires account, buy rise of kingdoms account, buy roblox account, buy rocket league account, buy
+        runescape account, buy rust account, buy seven deadly sins account, buy snapchat account, buy galaxy of heroes
+        account, buy state of survival account, buy steam account, buy summoners war account, buy telegram account, buy
+        TGM account, buy tiktok account, buy top war battle account, buy twitch account, buy upwork account, buy
+        valorant account, buy war dragons account, buy war thunder account, buy warframe account, buy wizard 101
+        account, buy world of tanks account, buy xbox account, buy yugioh account, buy 8 ball pool account
     </p>
 </body>
 
